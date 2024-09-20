@@ -19,12 +19,14 @@ itens.forEach(input => {
         } else if (input.value !== '') {
 
             input.classList.add('campo-obrigatorio-preenchido');
-            textos.classList.remove('texto-obrigatorio');
-
+            textos.forEach(textos => {
+                textos.classList.remove('texto-obrigatorio');
+            });
         }
 
     });
 });
+
 
 
 
