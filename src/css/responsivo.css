@@ -1,0 +1,46 @@
+@media (max-width:1000px) {
+    .container{
+        width: 90%;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 70%;
+        gap: 0;
+
+    }
+    .container .about{
+        display: flex;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    h1{
+        font-size: 26.5px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .conteudo ,.about {
+        display: flex;
+        align-items: center;
+        width: 90vw;
+        padding-top: 15px;
+        border-radius: 8px;
+    }
+    .conteudo .formulario .btn-enviar {
+        height: 40px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .conteudo .formulario .item{
+        width: 100%;
+        height: 35px;
+        font-size: 20px;
+    }
+}

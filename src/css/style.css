@@ -11,6 +11,7 @@ body {
     height: 100vh;
     display: flex;
     gap: 120px;
+    
 }
 
 h1 {
@@ -28,13 +29,16 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 700px;
-    padding-left: 120px;
+    width:80%px;
+    padding-left:120px;
     color: #FFFFFF;
+    
+
+   
 }
 
-.container .conteudo {
-    width: 670px;
+ .conteudo {
+    width: 45%;
     height: 95%;
     background-color: #FFFFFF;
     display: flex;
@@ -48,6 +52,8 @@ p {
     flex-direction: column;
     border-radius: 8px;
     gap: 20px;
+    width: 80%;
+    
 }
 
 .conteudo .formulario .item {
@@ -56,15 +62,19 @@ p {
     padding-left: 10px;
     font-size: 25px;
     border-radius: 8px;
+    
+    
 }
 
 .conteudo .formulario {
     width: 90%;
+   
 }
 
 .conteudo .formulario .mensagem {
     height: 150px;
     padding: 10px 195px 110px 10px;
+    
 }
 
 .conteudo .formulario .btn-enviar {
